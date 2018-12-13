@@ -1,0 +1,160 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	color: black;
+	font-family: Courier New;
+	background: white;
+	font-weight:400;
+    line-height:1.8em;
+	margin: 0 30px 0 30px;
+	background: #ff8d8d;
+}
+body, html{
+	height:100%;
+}
+a {
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+/*-----------------------------------------HEADER MEYN------------------------------------------------*/
+.hd{
+	padding: 55px;
+}
+.header {
+    position: fixed;
+    right: 50px;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: grid;
+    justify-content: none;
+    align-items: center;
+    z-index: 1;
+    text-align: center; 
+}
+.button{
+	
+	border: #ffb8b8 10px double;
+	background: #ff6d7b; 
+	color: white;
+	padding: 5px 10px;
+	transition: all .5s ease-out;
+}
+.button:hover{
+	background: #ff9da4;
+	color: black; 
+}
+#main-menu {
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	list-style: none;    
+	display: grid;       
+	grid-gap: 5px;          
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	width: 98%;
+	background: #ff8d8d;
+}
+#haha{
+	border-color: red;
+}
+
+#info{
+	position: justify;
+	text-align: left;
+	list-style: none;   
+}
+
+#andrada {
+	background-image: url(../images/piccc.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#andradaa {
+	background-image: url(../images/book.png);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#andradaaa {
+	background-image: url(../images/people.png);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#andradaaaa {
+	background-image: url(../images/picc.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#aja2 {
+	float: right;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+	background-repeat: no-repeat;
+}
+#pic{
+	margin-top: 150px;
+	margin-left: 50px;
+	border: 10px black double;
+	padding: 15px;
+}
+#objective {
+	position: justify;
+	list-style: none;    
+	background: white;
+	border: 10px #e7fdff double;
+	margin-bottom: 30px;
+	padding: 80px;
+	background-color: #ffb8b8;
+}
+#alvin{
+	background: white;
+	border: 10px #e7fdff double;
+	margin-bottom: 70px;
+	padding: 80px;
+	
+}
+#aja{
+	background: #ffc8d0;
+	border: 10px #e7fdff double;
+	margin-bottom: 70px;
+	margin-top: 40px;
+	display: grid;
+	padding: 80px;
+}
+#ajaa{
+	background: white;
+	border: 10px #e7fdff double;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding: 80px;
+}
+#ajaaa{
+	background: #ffc8d0;
+	border: 10px #e7fdff double;
+	margin-top:30px;
+	margin-bottom: 50px;
+	padding: 80px;
+}
+.footer{
+	background-color: #ff6d7b;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
